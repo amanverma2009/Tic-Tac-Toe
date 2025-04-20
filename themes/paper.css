@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-147801.jpg);
+    color: rgb(65, 64, 64);
+}
+
+.theme-btn, #randomThemeBtn {
+    color: black;
+}
+
+.box{
+    background: none;
+    border: 2px solid #8b8989;
+    color: #6d6875;
+}

@@ -1,0 +1,38 @@
+body {
+  background: #fef6f9;
+  color: #444;
+  font-family: "Poppins", sans-serif;
+}
+.theme-btn, #randomThemeBtn {
+  background: #fcd5ce;
+  border: none;
+  color: #6d6875;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+#randomThemeBtn, .theme-btn{
+    color: #444;
+}
+.box {
+  background: #fcd5ce;
+  border: 2px solid #f8edeb;
+  color: #6d6875;
+}
+
+.box:hover {
+  background: #f7bcb2;
+  color: #6d6875;
+}
+
+.newgame-btn{
+  background: #fcd5ce;
+  border: none;
+  color: #6d6875;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.newgame-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

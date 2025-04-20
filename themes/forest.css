@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://m.media-amazon.com/images/I/61oe9TpcqUS.jpg);
+  background-size: cover;   
+}
+
+.box {
+  background: none;
+  border: 1px solid #aadab5;
+  color: #a3d9a5;
+  backdrop-filter: blur(3px);
+}
+
+.theme-menu {
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+}

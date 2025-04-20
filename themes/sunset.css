@@ -1,0 +1,13 @@
+body{
+    background-image: url('/assets/depositphotos_165776484-stock-photo-flaring-sky-abstract-background.jpg');
+    background-size: cover;
+}
+.box{
+    background: none;
+    border: 2px solid #8b8989;
+    color: white;
+}
+
+.theme-btn, .box {
+    backdrop-filter: blur(3px);
+}

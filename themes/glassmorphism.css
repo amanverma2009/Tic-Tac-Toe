@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg);
+  background-size:cover;
+  backdrop-filter: blur(12px);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  height:100vh;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.newgame-btn{
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  transition: background 0.3s ease;
+}
+
+.newgame-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

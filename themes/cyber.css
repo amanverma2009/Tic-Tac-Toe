@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: #00ffcc;
+  font-family: "Orbitron", sans-serif;
+  background-image: none;
+}
+
+h1{
+  color: #00ffcc;
+}
+
+.theme-menu{
+  box-shadow: 0 0 12px #00ffcc;
+}
+
+.box {
+  background: #111;
+  color: #00ffcc;
+  border: 2px solid #00ffcc;
+  box-shadow: 0 0 8px #00ffcc;
+  transition: 0.3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 12px #00ffcc;
+}

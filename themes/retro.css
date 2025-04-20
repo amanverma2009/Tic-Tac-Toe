@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(90deg, #ff00cc, #3333ff);
+  color: #fff;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid white;
+  font-family: "Press Start 2P", cursive;
+}
+
+.newgame-btn {
+  background: #ff00cc;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newgame-btn:hover {
+  background: #dc11b4;
+}

@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "poppins";
+}
+
+#hamburger {
+  display: none;
+  transition: 0.3s;
+}
+#hamburger:hover {
+  transform: scale(1.1);
+}
+
+#close-icon {
+  position: sticky;
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 4em;
+}
+
+.theme-menu {
+  position: absolute;
+  left: 20px;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: fadeIn 0.3s ease forwards;
+  margin: 62px 0;
+}
+
+.theme-menu h3 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  height: 60px;
+}
+
+#randomThemeBtn {
+  background: none;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.95rem;
+  margin: 0 auto;
+  width: 40%;
+  border: 1px solid #fff;
+}
+
+.theme-menu-child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.theme-btn {
+  background: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+
+.theme-btn:hover,
+#randomThemeBtn:hover {
+  transform: scale(1.1);
+}
+
+.game {
+  width: 60vmin;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5px;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  font-size: 8vmin;
+  
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-image: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.box:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.msg-container {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hide-btn {
+  display: none;
+}
+
+.newgame-btn {
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+  #hamburger {
+    display: block;
+    position: relative;
+    left: 15px;
+    top: 79px;
+    cursor: pointer;
+  }
+  #close-icon {
+    display: flex;
+    scale: 2.3;
+    cursor: pointer;
+  }
+  .theme-menu {
+    top: -62px;
+    left: -1500%;
+    transition: all 0.7s;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    border-radius: 0;
+    width: 100%;
+  }
+}
