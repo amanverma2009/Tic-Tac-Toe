@@ -34,5 +34,6 @@ Includes soft pastel, glassmorphosism, gradient, image-based, and paper style an
 ### - Responsive Design:
 Fully functional on desktop and mobile devices.
 
-## Disclaimer:
-This is a personal project built for educational and practice purposes. All assets used are either self-made or open-source. This project is not intended for commercial use.
+## License:
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this code for personal and commercial projects, as long as the original license is included.
