@@ -4,6 +4,8 @@ let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector(".msg");
 let clicksound = new Audio("assets/mixkit-hard-pop-click-2364.wav");
 const randomThemeBtn = document.getElementById("randomThemeBtn");
+const closeIcon = document.querySelector("#close-icon");
+const hamburgerIcon = document.querySelector("#hamburger");
 
 let turnX = true;
 
@@ -115,14 +117,18 @@ window.addEventListener("DOMContentLoaded", () => {
   document.getElementById("theme-style").href = themePath;
 });
 
-document.querySelector("#hamburger").addEventListener("click", () => {
+hamburgerIcon.addEventListener("click", () => {
   document.querySelector(".theme-menu").style.left = "0";
-  document.querySelector(".hamburger").style.transform = "rotate(90deg)";
-    document.querySelector(".hamburger").style.position = "absolute";
+  hamburgerIcon.style.transform = "rotate(90deg)";
+  hamburgerIcon.style.position = "absolute";
+  hamburgerIcon.style.display = "none";
 });
 
-document.querySelector("#close-icon").addEventListener("click", () => {
+closeIcon.addEventListener("click", () => {
   document.querySelector(".theme-menu").style.left = "-1500%";
+  hamburgerIcon.style.transform = "rotate(0deg)";
+  
+  hamburgerIcon.style.display = "block";
 });
 
 newGameBtn.addEventListener("click", resetGame);

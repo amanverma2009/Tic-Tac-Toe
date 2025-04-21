@@ -39,3 +39,9 @@ body {
 .newgame-btn:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+@media (max-width: 1024px) {
+  .theme-btn {
+    backdrop-filter: blur(8px);
+  }
+}

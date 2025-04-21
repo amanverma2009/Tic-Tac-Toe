@@ -36,3 +36,10 @@ body {
 .newgame-btn:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+#hamburger{
+  filter: invert(1);
+}
+#close-icon{
+  filter: invert(1);
+}
