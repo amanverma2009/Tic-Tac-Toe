@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg);
+  background-image: url(../assets/glass-bg-img.jpg);
   background-size:cover;
   backdrop-filter: blur(12px);
   background-repeat: no-repeat;
