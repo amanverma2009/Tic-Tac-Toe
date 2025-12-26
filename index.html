@@ -6,7 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;"
+    />
     <title>Tic-Tac-Toe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,47 +29,53 @@
       width="24"
       id="hamburger"
     />
-    <h1>TIC-TAC-TOE</h1>
-    <div class="theme-menu">
-      <h3>Select Theme</h3>
-      <img
-        src="./assets/close-svgrepo-com.svg"
-        alt="Close button"
-        height="24"
-        width="24"
-        id="close-icon"
-      />
-      <button id="randomThemeBtn">🎲 Random Theme</button>
-      <div class="theme-menu-child">
-        <button class="theme-btn" data-theme="default">Default</button>
-        <button class="theme-btn" data-theme="glassmorphism">
-          Glassmorphism
-        </button>
-        <button class="theme-btn" data-theme="cyber">Cyber Neon</button>
-        <button class="theme-btn" data-theme="retro">Retro Vaporwave</button>
-        <button class="theme-btn" data-theme="soft-pastel">Soft Pastel</button>
-        <button class="theme-btn" data-theme="terminal">Terminal Style</button>
-        <button class="theme-btn" data-theme="paper">Paper</button>
-        <button class="theme-btn" data-theme="forest">Forest Style</button>
-        <button class="theme-btn" data-theme="sunset">Sunset Style</button>
+    <div class="content">
+      <h1>TIC-TAC-TOE</h1>
+      <div class="theme-menu">
+        <h3>Select Theme</h3>
+        <img
+          src="./assets/close-svgrepo-com.svg"
+          alt="Close button"
+          height="24"
+          width="24"
+          id="close-icon"
+        />
+        <button id="randomThemeBtn">🎲 Random Theme</button>
+        <div class="theme-menu-child">
+          <button class="theme-btn" data-theme="default">Default</button>
+          <button class="theme-btn" data-theme="glassmorphism">
+            Glassmorphism
+          </button>
+          <button class="theme-btn" data-theme="cyber">Cyber Neon</button>
+          <button class="theme-btn" data-theme="retro">Retro Vaporwave</button>
+          <button class="theme-btn" data-theme="soft-pastel">
+            Soft Pastel
+          </button>
+          <button class="theme-btn" data-theme="terminal">
+            Terminal Style
+          </button>
+          <button class="theme-btn" data-theme="paper">Paper</button>
+          <button class="theme-btn" data-theme="forest">Forest Style</button>
+          <button class="theme-btn" data-theme="sunset">Sunset Style</button>
+        </div>
       </div>
-    </div>
-    <div class="msg-container">
-      <h2 class="msg hide-btn">is the Winner</h2>
+      <div class="msg-container">
+        <h2 class="msg hide-btn">is the Winner</h2>
 
-      <button class="newgame-btn">New Game</button>
-    </div>
-    <div class="container">
-      <div class="game">
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
+        <button class="newgame-btn">New Game</button>
+      </div>
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
       </div>
     </div>
     <script src="./script.js"></script>
