@@ -142,6 +142,10 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+  body{
+    height: 100vh;
+  }
+  
   #hamburger {
     display: block;
     position: relative;
